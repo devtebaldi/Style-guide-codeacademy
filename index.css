@@ -1,0 +1,195 @@
+nav {
+    border: 2px solid grey;
+}
+
+nav li {
+    display: inline-block;
+}
+
+.clickable {
+    cursor: pointer;
+}
+
+.index h1 {
+    float:left;
+    margin: 15px 600px 15px 10px;
+    font-size: 36px;
+}
+
+.index h2 {
+    float:right;
+    margin: 15px 10px;
+    padding: 0px;
+    font-size: 25px;
+    text-decoration: none;
+}
+
+.index a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.index a:visited {
+    text-decoration: none;
+    color: inherit;
+}
+
+.feature {
+    border: 2px solid;
+    margin: 40px 5px;
+    padding: 0px 10px;
+}
+
+.feature #colors {
+    display: flex;
+    justify-content: space-between;
+}
+
+.feature .title {
+    text-align: center;
+    font-size: 30px;
+    padding: 20px;
+    border-bottom: dashed;
+}
+
+.color .colorname{
+    font-size: 20px;
+}
+
+.color{
+    font-weight: bold;
+    text-align: center;
+    border: 2px solid black;
+}
+
+.feature .color {
+    float:left;
+    margin: 10px 10px;
+    padding: 10px 10px;
+    font-size: 15px;
+    width: 200px;
+    height: 150px;
+}
+
+.feature #fonts, .feature #buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+#skyblue {
+    background-color: rgb(142, 209, 252);
+}
+
+#weedgreen {
+    background-color: rgb(53, 101, 77);
+}
+
+#spacegrey {
+    background-color: rgb(77, 86, 93);
+}
+
+#yellowsunflower {
+    background-color: rgb(255, 218, 65);
+}
+
+#redapple {
+    background-color: rgb(255, 0, 0);
+}
+
+.tnr, .arial, .montserrat, .roboto{
+    border-left: 2px solid black;
+    padding: 1px 17px;
+    margin: 30px;
+}
+
+.fonts .bold {
+    font-weight: bold;
+}
+
+.fonts .italic {
+    font-style: italic;
+}
+
+.tnr {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.arial {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.montserrat {
+    font-family: "Montserrat";
+}
+
+.roboto {
+    font-family: "Roboto Condensed";
+}
+
+#txtstyles {
+    text-align: center;
+}
+
+#btn1, #btn2, #btn3, #btn4, #btn5 {
+    padding: 10px 20px 10px 20px;
+    margin: 30px;
+    cursor: pointer;
+    width: 80px;
+    height: 30px;
+    text-align: center;
+    line-height: 1px;
+}
+
+#btn1 {
+    border: grey 1px solid;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+}
+
+#btn2 {
+    border: 1px grey solid;
+    background-color: blue;
+    font-weight: bold;
+    color: white;
+    border-radius: 40px;
+}
+
+#btn3 {
+    border: 1px grey solid;
+    background-color: grey;
+    font-weight: bold;
+    color: black;
+    border-radius: 15px;
+}
+
+#btn3:hover {
+    background-color:rgb(56, 59, 61)
+}
+
+#btn4 {
+    border: 1px rgb(0, 0, 0) solid;
+    background-color: rgb(243, 4, 4);
+    font-weight: bold;
+    color: white;
+    border-radius: 15px;
+}
+
+#btn4:hover {
+    background-color: rgb(153, 4, 4);
+}
+
+#btn4:active {
+    font-size: large;
+    text-align: center;
+    line-height: 0px;
+}
+
+#btn5 {
+    background-color: #ccc;
+    color: #333;
+    border: 1px solid #333;
+    padding: 10px 20px;
+    cursor: pointer;
+    box-shadow: 1px 2px 20px 4px rgba(44, 44, 44, 0.3);
+}
